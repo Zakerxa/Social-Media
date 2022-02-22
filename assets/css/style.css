@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosansmyanmar.css");
+body,
+html {
+    font-family: "Noto Sans Myanmar", sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: inline-block;
+    background: rgba(75, 163, 236, 0.952);
+    text-align: center;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 1000;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #fff;
+    top: 0;
+}
+
+.navigation button {
+    outline: none;
+    background: #fff;
+}
+
+.auth_nav {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+
+#routercontainer > .router{
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.router {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 81, 255);
+    border-bottom: 3px solid rgb(0, 81, 255);
+}
+
+
+
+
+
+/* the slides */
+.slick-slide {
+    margin: 0 2px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -2px;
+}
+
+
+.tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 100000; font-family: arial; font-weight: bold; }
+
+
+
+.containerFadeIn {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+input
+[type=text],
+[type=password],
+[type=email],
+[type=number]{
+  outline: none;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span#procent {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: #3949AB;
+}
+
+span#procent::after {
+    content: '%';
+}
+
+.canvas-wrap {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.fullscreen:-webkit-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.fullscreen:-moz-full-screen {
+    width: auto !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.fullscreen:-ms-fullscreen {
+    width: auto !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+
+
+
+
+.cf{
+    color:#000;
+    animation-name: cf;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes cf {
+    from {
+     color: rgb(255, 38, 0);
+    }
+    to {
+      color: #00f;
+    }
+  }
